@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int sayi1, sayi2;
+            Console.Write("1. Sayı ");
+            sayi1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("2. Sayı  ");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+            if (sayi1 > sayi2)
+            {
+                Console.WriteLine("1. Sayı Büyük");
+            }
+            else if (sayi1 == sayi2)
+            {
+                Console.WriteLine("İki Sayı Eşit");
+            }
+            else
+            {
+                Console.WriteLine("2. Sayı Büyük");
+            }
+            Console.ReadKey();
+
+
+        }
+    }
+}
